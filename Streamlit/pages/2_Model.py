@@ -10,8 +10,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 # Define function to convert columns to string
-def convert_to_str(X):
-    return X.astype(str)
+def convert_to_str(x):
+    return str(x)
 
 # Set page config
 st.set_page_config(page_title="Sales Prediction App", page_icon="📊")
