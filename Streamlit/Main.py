@@ -1,5 +1,6 @@
 import streamlit as st
-
+def convert_to_str(x):
+    return str(x)
 st.set_page_config(
     page_title="Store Sales Forecasting",  # <- Change this title
     page_icon="📊",                         # Optional emoji or icon
